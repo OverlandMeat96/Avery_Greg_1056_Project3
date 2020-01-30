@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Socument */
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	background-color: #fff7e3;
+}
+
+.mainHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.logoHeader {
+	width: 220px;
+	margin: 10px 0px 20px 0px; 
+}
+
+
+.mainFooter {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 20px 0px 0px 0px;
+	padding: 0px 20px 0px 20px;
+	height: 125px;
+	background-color: green;
+}
