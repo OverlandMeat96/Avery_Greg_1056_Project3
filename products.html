@@ -17,19 +17,25 @@
 				<nav class="mainNav">
 					<h2 class="hidden">Main Nav</h2>
 					<ul>
-                    	<li><a href="#">Home</a></li>  
+                    	<li><a href="index.html">Home</a></li>  
                     	<li><a href="#">Products</a></li>
                     	<li><a href="#">Our Brand</a></li>
                     	<li><a href="#">Contact</a></li> 
                 	</ul>
                 </nav>
-				<div class="searchBar">Search</div>
-				<div class="shoppingCart">C</div>
+				<form id="searchBar" action="form.php" method="post"> 
+                    <input type="text" required size="26" placeholder="Search">    
+                </form>
+                <ul>
+					<li class="shoppingCart"><a href="#"> C </a></li>
+				</ul>
 			</header>
+
 
 			<section class="heroImg">
 				<img src="images/index/Hero_Image.jpg" alt="Hero Image">
 			</section>
+
 
 			<section class="footwear">
 				<h2>Footwear</h2>
@@ -129,6 +135,7 @@
 					</section>
 				</section>
 			</section>
+
 
 			<footer class="mainFooter">
 				<h2 class="hidden">Main Footer</h2>

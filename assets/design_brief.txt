@@ -3,7 +3,13 @@ Font Sizes:
 	H3(ex. Classic Series) - 28px
 	H4(ex. Shoe Name) - 18px
 	P - 14px
-	Top Nav - 28px
+	Top Nav / Search Bar - 28px
 
 Font Family:
 	H2 - 
+
+Measurements:
+	Home:
+
+	Products:
+	

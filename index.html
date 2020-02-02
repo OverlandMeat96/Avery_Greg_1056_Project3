@@ -18,13 +18,17 @@
 					<h2 class="hidden">Main Nav</h2>
 					<ul>
                     	<li><a href="#">Home</a></li>  
-                    	<li><a href="#">Products</a></li>
+                    	<li><a href="products.html">Products</a></li>
                     	<li><a href="#">Our Brand</a></li>
                     	<li><a href="#">Contact</a></li> 
                 	</ul>
                 </nav>
-				<div class="searchBar">Search</div>
-				<div class="shoppingCart">C</div>
+				<form id="searchBar" action="form.php" method="post"> 
+                    <input type="text" required size="26" placeholder="Search">    
+                </form>
+                <ul>
+					<li class="shoppingCart"><a href="#"> C </a></li>
+				</ul>
 			</header>
 
 
@@ -36,9 +40,50 @@
 			<section class="ftdProducts">
 				<h2> Featured Products </h2>
 				<div class="lineDivider"></div>
-				<ul>
-					<li class="shpMrBtn"><a href="#"> Shop More </a></li>
-				</ul>
+				<section class="ftdShoes">
+					<section class="imgText"> <!-- Start Product Box -->
+						<div class="ftdImg">
+							<img src="images/index/product_image.jpg" alt="Product Image">
+						</div>
+						<section class="ftdText">
+							<h4>Lorem Ipsum</h4>
+							<p class="ftdInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem Ipsum Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p>USD $130</p>
+							<ul>
+								<li class="prdctBtn"><a href="#"> MORE </a></li>
+							</ul>
+						</section>
+					</section>
+					<section class="imgText"> <!-- Start Product Box -->
+						<div class="ftdImg">
+							<img src="images/index/product_image.jpg" alt="Product Image">
+						</div>
+						<section class="ftdText">
+							<h4>Lorem Ipsum</h4>
+							<p class="ftdInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem Ipsum Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p>USD $130</p>
+							<ul>
+								<li class="prdctBtn"><a href="#"> MORE </a></li>
+							</ul>
+						</section>
+					</section>
+					<section class="imgText"> <!-- Start Product Box -->
+						<div class="ftdImg">
+							<img src="images/index/product_image.jpg" alt="Product Image">
+						</div>
+						<section class="ftdText">
+							<h4>Lorem Ipsum</h4>
+							<p class="ftdInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem Ipsum Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+							<p>USD $130</p>
+							<ul>
+								<li class="prdctBtn"><a href="#"> MORE </a></li>
+							</ul>
+						</section>
+					</section>
+				</section>
+					<ul>
+						<li class="shpMrBtn"><a href="#"> Shop More </a></li>
+					</ul>
 			</section>
 
 
@@ -50,7 +95,9 @@
 						<li class="moreBtn"><a href="#"> MORE </a></li>
 					</ul>
 				</div>
-				<div class="brndImg">Image 448w 303h</div>
+				<div class="brndImg">
+					<img src="images/index/product_image.jpg" alt="Image 448w 303h">
+				</div>
 			</section>
 
 
