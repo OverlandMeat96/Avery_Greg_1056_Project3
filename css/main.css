@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* CSS Socument */
 
 /*------------SITE CONATINER-----------*/
 
@@ -226,6 +225,17 @@ h4 {
 	height: 100px;
 	background-color: white;
 	margin: 6px 0px 0px 10px;
+}
+
+.footerNav ul li { 
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 26px;
+	cursor: pointer;
+}
+
+.footerNav ul li a {  
+	color: #808080;
 }
 
 .copyright {
