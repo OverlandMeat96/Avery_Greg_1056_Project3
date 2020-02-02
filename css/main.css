@@ -1,30 +1,171 @@
 @charset "UTF-8";
 /* CSS Socument */
 
-.container {
+/*------------SITE CONATINER-----------*/
+
+.hidden {
+	display: none;
+}
+
+#siteContainer {
 	margin: 0 auto;
 	width: 960px;
-	background-color: #fff7e3;
 }
+
+/*----------------HEADER----------------*/
 
 .mainHeader {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+	height: 112px;
+	font-size: 26px;
+	background-color: black;
 }
 
 .logoHeader {
-	width: 220px;
-	margin: 10px 0px 20px 0px; 
+	width: 90px;
+	height:90px;
+	background-color: white;
+	margin: 10px 0px 0px 10px;
 }
 
+
+
+
+
+.mainNav {
+	width: 451;
+	height:24;
+	margin: 35px 110px 0px 20px;
+}
+
+.mainNav ul {
+	list-style-type: none;
+}
+
+.mainNav ul li { 
+	font-size: 22px;
+	display: inline;
+	cursor: pointer;
+}
+
+.mainNav ul li a {  
+	color: #fff;
+}
+
+
+
+
+
+.searchBar {
+	width: 210px;
+	height: 36px;
+	margin: 36px 0px 0px 130px;
+	background-color: white;
+}
+
+.shoppingCart {
+	width: 30px;
+	height: 30px;
+	margin: 38px 0px 0px 28px;
+	background-color: white;
+}
+
+/*---------------Hero_Image_Scroll--------------*/
+
+.heroImgScrl {
+	height: 312px;
+	background-color: green;
+}
+
+/*---------------Featured_Products--------------*/
+
+.ftdProducts {
+	height: 320px;
+	background-color: gold;
+	margin-top: 20px;
+}
+
+h2 {
+	font-size: 32px;
+	margin-left: 28px;
+}
+
+.shpMrBtn {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+
+/*---------------OUR_BRAND--------------*/
+
+.ourBrand {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 960px;
+	height: 312px;
+	background-color: brown;
+	margin: 0 auto
+}
+
+.brndInfo{
+	width: 440px;
+	height: 200px;
+	background-color: white;
+	margin: 25px 0px 0px 26px;
+}
+
+.moreBtn {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.brndImg {
+	width: 448px;
+	height: 312px;
+	background-color: blue;
+	margin-left: 24px;
+}
+/*----------------FOOTER----------------*/
 
 .mainFooter {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	margin: 20px 0px 0px 0px;
-	padding: 0px 20px 0px 20px;
-	height: 125px;
-	background-color: green;
+	margin: 0 auto;
+	width: 960px;
+	height: 114px;
+	background-color: black;
+}
+
+.logoFooter {
+	width: 90px;
+	height:90px;
+	background-color: white;
+	margin: 10px 0px 0px 40px;
+}
+
+.footerNav {
+	width: 120px;
+	height: 100px;
+	background-color: white;
+	margin: 6px 0px 0px 10px;
+}
+
+.copyright {
+	width: 230px;
+	height: 16px;
+	background-color: white;
+	margin: 90px 0px 0px 120px;
+}
+
+.countrySelect {
+	width: 130px;
+	height: 24px;
+	background-color: white;
+	margin: 45px 0px 0px 180px;
 }
