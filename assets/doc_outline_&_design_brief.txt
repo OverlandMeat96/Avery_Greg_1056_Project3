@@ -56,9 +56,14 @@ ________________________________________________________
 Measurements:
 	Home:
 	   Header - W:960px  H:112px
-	   Footer - W:960px  H:114px
+	   Hero Image Scroll - W:960px  H:312px
+	   Featured Products - W:960px  H:320px
+	   Our Brand - W:960px  H:314px
+	   Footer - W:960px  H:112px
 
 	Products:
 	   Header - W:960px  H:112px
-	   Footer - W:960px  H:114px
+	   Hero Image - W:960px  H:312px
+	   Footwear - W:960px  H:1000px
+	   Footer - W:960px  H:112px
 ________________________________________________________

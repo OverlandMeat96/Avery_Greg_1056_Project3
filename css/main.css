@@ -140,7 +140,7 @@ h4 {
 	flex-direction: row;
 	justify-content: flex-start;
 	width: 960px;
-	height: 312px;
+	height: 314px;
 	background-color: green;
 	margin: 20px 0px 20px 0px;
 }
@@ -161,7 +161,7 @@ h4 {
 
 .brndImg {
 	width: 448px;
-	height: 312px;
+	height: 314px;
 	background-color: purple;
 	margin-left: 24px;
 }
@@ -209,7 +209,7 @@ h4 {
 	justify-content: flex-start;
 	margin: 0 auto;
 	width: 960px;
-	height: 114px;
+	height: 112px;
 	background-color: black;
 }
 
